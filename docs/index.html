@@ -1,0 +1,27 @@
+---
+layout: default
+title: Home
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Privacy Policy Page</h1>
+    </header>
+    <main>
+        <p>This is the main content area where you can add text about your privacy policy.</p>
+        <p>For your actual privacy policy, consider linking to your privacy policy document.</p>
+        <a href="privacy_policy.html">Read our Privacy Policy</a>
+    </main>
+    <footer>
+        <p>&copy; {{ site.time | date: "%Y" }} Your Company Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
